@@ -11,5 +11,6 @@
       </feature>
     </config-file>
     <source-file src="src/ios/ModusEchoSwift.swift" />
+	<header-file src="src/ios/ModusEchoSwift-Bridging-Header.h" />
   </platform>
 </plugin>
