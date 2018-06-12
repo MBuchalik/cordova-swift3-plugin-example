@@ -13,6 +13,6 @@
     <source-file src="src/ios/ModusEchoSwift.swift" />
 	<header-file src="src/ios/ModusEchoSwift-Bridging-Header.h" />
 
-	<framework src="Google-Mobile-Ads-SDK" type="podspec" spec="17.31.0" />
+	<framework src="Google-Mobile-Ads-SDK" type="podspec" spec="7.31.0" />
   </platform>
 </plugin>
