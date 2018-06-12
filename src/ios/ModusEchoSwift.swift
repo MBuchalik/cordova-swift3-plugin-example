@@ -1,3 +1,6 @@
+// Just doing some tests.
+import GoogleMobileAds
+
 @objc(ModusEchoSwift) class ModusEchoSwift : CDVPlugin {
   @objc(echo:)
   func echo(command: CDVInvokedUrlCommand) {
@@ -14,7 +17,7 @@
           message: msg,
           preferredStyle: .alert
         )
-      
+
       self.viewController?.present(
         toastController,
         animated: true,
@@ -27,7 +30,7 @@
             completion: nil
         )
       }
-        
+
       pluginResult = CDVPluginResult(
         status: CDVCommandStatus_OK,
         messageAs: msg
